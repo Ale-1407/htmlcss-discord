@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header  */
+
+header{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(90, 89, 89);
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    background-color: pink;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    
+}
+
+.cont{
+    width: 150px;
+    background-color: darkblue;
+    padding: 5px;
+}
+
+.menu{
+    width: 450px;
+    background-color: darkblue;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.cont-centr{
+    background-color: purple;
+    margin: auto;
+    width: 50%;
+    height: 400px;
+}
+
+/* main-section */
+
+.box{
+    width: 100%;
+    height: 300px;
+}
+
+.box1{
+    background-color: white;
+}
+
+.box2{
+    background-color: #f6f6f6;
+    
+}
+
+.container-flex{
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.grey{
+    background-color: #f6f6f6;
+    flex-direction: row-reverse;
+    
+}
+
+.pippo{
+    background-color: darkred;
+    flex-basis: 49%;
+}
+
+.pluto{
+    background-color: brown;
+    flex-basis: 49%;
+
+}
+
+.sect-bot{
+    width: 100%;
+    height: 650px;
+    background-color: #f6f6f6;
+}
+
+.cont-flex{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 650px;
+    
+
+}
+
+.row1{
+    background-color: darkred;
+    height: 216px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.row2{
+    background-color: brown;
+    height: 216px;
+    width: 100%;
+
+}
+
+.row3{
+    background-color: salmon;
+    height: 216px;
+    width: 100%;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    margin: auto;
+    height: 650px;
+    background-color: #23272a;
+}
+
+.foot-cont{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    
+}
+
+.foot-item1{
+    background-color: chocolate;
+    flex-basis: 15%;
+    height: 500px;
+}
+
+.foot-item{
+    background-color: fuchsia;
+    flex-basis: 15%;
+    height: 500px;
+}
+
+.foot-item2{
+    background-color: chocolate;
+    flex-basis: 19%;
+    height: 500px;
+}
+
+.foot-cont2{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ale1{
+    background-color: blue;
+    width: 140px;
+    flex-basis: 19%;
+}
+
+.ale2{
+    background-color: aqua;
+    width: 450px;
+    flex-basis: 41%;
+}
