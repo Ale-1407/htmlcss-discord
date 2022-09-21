@@ -11,9 +11,11 @@
 
 header{
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-image: url("../img/jumbo.png");
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flex{
@@ -79,8 +81,7 @@ ul li{
 div p{
     font-size: 15px;
     padding-top: 30px;
-    
-    
+    line-height: 25px;
 }
 
 /* main-section */
@@ -182,7 +183,6 @@ footer{
 footer > div{
     margin: 0 auto;
     width: 80%;
-    height: 400px;
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
@@ -201,12 +201,8 @@ footer > div{
 }
 
 
-p::after{
+.p-footer::after{
     content: '\25BE';
-}
-
-.icon{
-    color: white;
 }
 
 .footer-menu{
@@ -214,12 +210,43 @@ p::after{
 
 }
 
-ul li{
-    color: #687cc3;
+
+.fa-brands{
+    color: white;
+    padding: 0 8px;
+    font-size: 15px;
+    
     
 }
 
-.ul-ann li{
-    color: white;
-    display: block;
+footer > div:first-child{
+    padding: 30px 0;
 }
+
+.foot-bott{
+    padding: 30px 0;
+    border-top: 1px solid #8ea1e1;
+   
+}
+
+.button-sky{
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: #8ea1e1;
+    color: white;
+    border: 1px solid #8ea1e1;
+}
+
+.flex2{
+    display: flex;
+   
+    
+
+
+}
+
+.footer-col{
+    flex-basis: calc(100% / 4);
+    padding: 0 10px;
+}
+
