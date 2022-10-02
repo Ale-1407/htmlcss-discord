@@ -178,21 +178,22 @@ div p{
 
 footer{
     background-color: #23272a;
+    padding-top: 60px;
 }
 
 footer > div{
     margin: 0 auto;
     width: 80%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 40px;
+    justify-content: space-around;   
 }
 
-.footer-social{
-    width: 20%;
-    font-size: 20px;
-    color: #687cc3;
+/* footer social */
 
+.footer-social{
+    width: 30%;
+    font-size: 25px;
+    color: #687cc3;
 }
 
 .footer-social img{
@@ -200,53 +201,43 @@ footer > div{
     height: 12px;
 }
 
+.social-icons .fa-brands{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 0;
+    font-size: 20px;
+    color: white;
+}
 
 .p-footer::after{
     content: '\25BE';
 }
 
+/* footer menu */
+
 .footer-menu{
-    width: 68%;
-
-}
-
-
-.fa-brands{
-    color: white;
-    padding: 0 8px;
-    font-size: 15px;
-    
-    
-}
-
-footer > div:first-child{
-    padding: 30px 0;
-}
-
-.foot-bott{
-    padding: 30px 0;
-    border-top: 1px solid #8ea1e1;
-   
-}
-
-.button-sky{
-    border-radius: 15px;
-    padding: 5px 15px;
-    background-color: #8ea1e1;
-    color: white;
-    border: 1px solid #8ea1e1;
-}
-
-.flex2{
+    width: 100%;
     display: flex;
-   
-    
-
-
+    justify-content: center;
+    padding-left: 40px;
+    padding-top: 15px;
 }
 
 .footer-col{
-    flex-basis: calc(100% / 4);
-    padding: 0 10px;
+    width: 20%;
+    line-height: 35px;
+    margin-left: 40px;
 }
+
+.footer-col h3{
+    color: #687cc3;
+}
+
+.footer-col span{
+    color: white;
+    display: block;
+}
+
+
+
 
